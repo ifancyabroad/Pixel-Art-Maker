@@ -19,7 +19,16 @@ $('#input_width').change(function() {
 // When size is submitted by the user, call makeGrid()
 
 function makeGrid() {
+	console.log('Test');
+	const grid = $('#pixel_canvas');
+	const row = $('<tr></tr>');
+	const col = $('<td></td>');
 
-// Your code goes here!
-
+	for (let i = 0; i < gridHeight; i++) {
+		let currentRow = row.clone();
+		grid.append(currentRow);
+		for (let j = 0; j < gridWidth; j++) {
+			currentRow.append(col.clone());
+		}
+	}
 }
