@@ -18,6 +18,7 @@ $('#input_width').change(function() {
 
 // When size is submitted by the user, call makeGrid()
 $('#sizePicker').submit(function() {
+	$('tr, td').remove();
 	makeGrid();
 	return false;
 });
