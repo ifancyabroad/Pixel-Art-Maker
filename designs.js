@@ -17,9 +17,12 @@ $('#input_width').change(function() {
 });
 
 // When size is submitted by the user, call makeGrid()
+$('#sizePicker').submit(function() {
+	makeGrid();
+	return false;
+});
 
 function makeGrid() {
-	console.log('Test');
 	const grid = $('#pixel_canvas');
 	const row = $('<tr></tr>');
 	const col = $('<td></td>');
