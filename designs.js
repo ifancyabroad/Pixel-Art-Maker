@@ -21,6 +21,7 @@ $('#input_width').change(function() {
 $('#sizePicker').submit(function() {
 	$('tr, td').remove();
 	makeGrid();
+	paintOnGrid();
 	return false;
 });
 
@@ -37,8 +38,10 @@ function makeGrid() {
 			currentRow.append(col.clone());
 		}
 	}
+}
 
-	// Enable painting on the grid
+// Enable painting on the grid
+function paintOnGrid() {
 	let painting = false;
 
 	$('td').mousedown(function() {
