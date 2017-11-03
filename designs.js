@@ -4,6 +4,7 @@ let color = $('#colorPicker').val();
 $('#colorPicker').change(function() {
 	color = $('#colorPicker').val();
 });
+
 // Select size input
 let gridHeight = $('#input_height').val();
 let gridWidth = $('#input_width').val();
@@ -23,6 +24,7 @@ $('#sizePicker').submit(function() {
 	return false;
 });
 
+// Create a grid based on grid height and width
 function makeGrid() {
 	const grid = $('#pixel_canvas');
 	const row = $('<tr></tr>');
@@ -35,4 +37,21 @@ function makeGrid() {
 			currentRow.append(col.clone());
 		}
 	}
+
+	// Enable painting on the grid
+	let painting = false;
+
+	$('#pixel_canvas').mousedown(function() {
+		painting = true;
+	});
+
+	$('#pixel_canvas').mouseup(function() {
+		painting = false;
+	});	
+
+	$('td').mouseover(function() {
+		if (painting == true) {
+			$(this).css({'background-color': color});
+		}
+	});
 }
