@@ -41,15 +41,20 @@ function makeGrid() {
 	// Enable painting on the grid
 	let painting = false;
 
-	$('#pixel_canvas').mousedown(function() {
+	$('td').mousedown(function() {
 		painting = true;
+		$(this).css({'background-color': color});
 	});
 
-	$('#pixel_canvas').mouseup(function() {
+	$('body').mouseup(function() {
 		painting = false;
-	});	
+	});
 
-	$('td').mouseover(function() {
+	$('#pixel_canvas').mouseleave(function() {
+		painting = false;
+	});
+
+	$('td').hover(function() {
 		if (painting == true) {
 			$(this).css({'background-color': color});
 		}
