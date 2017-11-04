@@ -29,6 +29,10 @@ $('#eraser').click(function() {
 	color = ('white');
 });
 
+$('#reset').click(function() {
+	$('td').css({'background-color': 'white'});
+});
+
 // Create a grid based on grid height and width
 function makeGrid() {
 	const grid = $('#pixel_canvas');
