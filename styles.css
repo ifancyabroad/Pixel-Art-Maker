@@ -17,7 +17,11 @@ h1 {
 }
 
 h2 {
-	margin: 20px;
+	margin-top: 20px;
+}
+
+i {
+	margin-bottom: 20px;
 }
 
 /*Controls*/
@@ -134,7 +138,7 @@ input[type=color]:hover {
 
 /*Table*/
 .canvas-container {
-	min-height: 170px;
+	min-height: 140px;
 }
 
 table,
