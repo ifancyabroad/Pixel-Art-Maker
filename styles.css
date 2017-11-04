@@ -28,6 +28,7 @@ h2 {
 	display: flex;
 	margin: 10px auto;
 	width: 30%;
+	min-width: 381px;
 	justify-content: center;
 	font-size: 1.1em;
 }
@@ -118,15 +119,16 @@ input[type=submit]:hover {
 }
 
 input[type=color] {
-    background-color: #f0f;
+    background-color: #fff;
     color: white;
-    border: 2px solid #f0f;
+    border: 2px solid #ccc;
 	height: 44.67px;
 	box-sizing: border-box;
 }
 
 input[type=color]:hover {
     background-color: white;
+    border: 2px solid #f0f;
     color: black;
 }
 
