@@ -1,3 +1,9 @@
+/** {
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+}*/
+
 body {
     text-align: center;
 }
@@ -12,8 +18,16 @@ h2 {
     margin: 1em 0 0.25em;
 }
 
-h2:first-of-type {
-    margin-top: 0.5em;
+.controls {
+	display: flex;
+	margin: 10px auto;
+	width: 40%;
+	justify-content: center;
+}
+
+.form-group {
+	clear: right;
+	overflow: auto;
 }
 
 table,
@@ -35,6 +49,17 @@ td {
     width: 20px;
 }
 
+form,
+.tools {
+	margin: 10px 20px;
+	padding: 5px;
+}
+
 input[type=number] {
     width: 6em;
+	float: right;
+}
+
+input[type=submit] {
+	margin: 10px auto;
 }
