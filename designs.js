@@ -25,10 +25,12 @@ $('#sizePicker').submit(function() {
 	return false;
 });
 
+// Change color to white for eraser button
 $('#eraser').click(function() {
 	color = ('white');
 });
 
+// Reset grid to white for reset button
 $('#reset').click(function() {
 	$('td').css({'background-color': 'white'});
 });

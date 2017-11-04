@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <title>Pixel Art Maker!</title>
+	<!--Link to jQuery library for JavaScript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--Link to Google Fonts for Orbitron-->
     <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
+	<!--Link to Font Awesome for chevron icon-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Link to stylesheet-->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+	<!--Page header-->
     <h1>Pixel Art Maker</h1>
 
+	<!--Controls section-->
     <div class="controls">
+		<!--Form for selecting grid dimensions-->
 		<form id="sizePicker">
 			<div class="form-group">
 				<label for="input_height">Grid Height:</label>
@@ -23,6 +30,7 @@
 			</div>
 			<input class="button" type="submit">
 		</form>
+		<!--Tools for coloring the grid-->
 		<div class="tools">
 			<input class="button" type="color" id="colorPicker">
 			<input class="button eraser" type="button" id="eraser" value="Eraser">
@@ -30,16 +38,19 @@
 		</div>
 	</div>
 
+	<!--Grid section-->
     <h2>Design Canvas</h2>
 	<i class="fa fa-angle-down fa-2x"></i>
 	<div class="canvas-container">
 		<table id="pixel_canvas"></table>
 	</div>
 
+	<!--Footer-->
 	<footer>
 		<p>Made by &copy; Edgar Nightingale</p>
 	</footer>
 
+	<!--Link to JavaScript-->
     <script src="designs.js"></script>
 </body>
 </html>
