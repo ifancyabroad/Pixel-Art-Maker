@@ -25,6 +25,10 @@ $('#sizePicker').submit(function() {
 	return false;
 });
 
+$('#eraser').click(function() {
+	color = ('white');
+});
+
 // Create a grid based on grid height and width
 function makeGrid() {
 	const grid = $('#pixel_canvas');
