@@ -5,6 +5,7 @@
 
 body {
     text-align: center;
+	font-family: Arial, sans-serif;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h2 {
 	margin: 10px auto;
 	width: 40%;
 	justify-content: center;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 .form-group {
@@ -79,5 +80,24 @@ input[type=number]:focus {
 }
 
 input[type=submit] {
-	margin: 10px auto;
+	width: 90%;
+	float: right;
+	font-size: 1em;
+}
+
+.button {
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+	border-radius: 4px;
+	padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
 }
