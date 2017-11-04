@@ -133,6 +133,10 @@ input[type=color]:hover {
 }
 
 /*Table*/
+.canvas-container {
+	min-height: 170px;
+}
+
 table,
 tr,
 td {
@@ -150,4 +154,13 @@ tr {
 
 td {
     width: 20px;
+}
+
+/*Footer*/
+footer {
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	border-top: 1px solid #888;
+	margin: 20px 0 0;
+	padding: 10px;
 }
