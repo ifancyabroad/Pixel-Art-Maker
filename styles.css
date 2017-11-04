@@ -8,6 +8,7 @@ body {
 	font-family: Arial, sans-serif;
 }
 
+/*Title*/
 h1 {
     font-family: Monoton;
     font-size: 50px;
@@ -15,42 +16,13 @@ h1 {
 	margin-bottom: 10px;
 }
 
-h2 {
-    margin: 1em 0 0.25em;
-}
-
+/*Controls*/
 .controls {
 	display: flex;
 	margin: 10px auto;
 	width: 40%;
 	justify-content: center;
 	font-size: 1.1em;
-}
-
-.form-group {
-	margin-bottom: 10px;
-	display: flex;
-	align-items: center;
-	float: right;
-}
-
-table,
-tr,
-td {
-    border: 1px solid black;
-}
-
-table {
-    border-collapse: collapse;
-    margin: 0 auto;
-}
-
-tr {
-    height: 20px;
-}
-
-td {
-    width: 20px;
 }
 
 form {
@@ -63,6 +35,13 @@ form,
 	margin: 10px 20px;
 	padding: 5px;
 	width: 50%
+}
+
+.form-group {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	float: right;
 }
 
 input[type=number] {
@@ -100,4 +79,24 @@ input[type=submit] {
 .button:hover {
     background-color: white;
     color: black;
+}
+
+/*Table*/
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
 }
