@@ -101,6 +101,7 @@ span {
 	display: block;
 	width: 80%;
 	font-size: 1em;
+	margin: 0 auto;
 }
 
 .tools .button {
@@ -168,4 +169,18 @@ td {
 /*Footer*/
 footer {
 	margin: 40px;
+}
+
+@media screen and (max-width: 550px) {
+	form {
+		display: block;
+		min-width: 200px;
+		text-align: right;
+	}
+	
+	.form-group {
+		display: block;
+		width: auto;
+		margin: 5px;
+	}
 }
