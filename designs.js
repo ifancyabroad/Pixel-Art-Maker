@@ -11,11 +11,11 @@ let gridWidth = $('#input_width');
 
 
 // When size is submitted by the user, call makeGrid()
-$('#sizePicker').submit(function() {
+$('#sizePicker').submit(function(e) {
+	e.preventDefault();
 	$('tr, td').remove();
 	makeGrid();
 	paintOnGrid();
-	return false;
 });
 
 $(function() {
