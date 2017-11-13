@@ -5,7 +5,7 @@
 
 body {
 	background-color: #222;
-	background: linear-gradient(to bottom right, #222, #444);
+	background: linear-gradient(to bottom right, #222, #001);
 	background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
@@ -32,7 +32,8 @@ i {
 
 /*Grid form*/
 form {
-	background-color: rgba(238, 238, 238, 0.5);
+	color: white;
+	background-color: rgba(238, 238, 238, 0.2);
 	border: 1px solid #888;
 	border-radius: 8px;
 	margin: 10px auto;
@@ -66,9 +67,9 @@ input[type=number]:focus {
 }
 
 input[type=submit] {
-    background-color: #008CBA;
+    background-color: #006;
     color: white;
-    border: 2px solid #008CBA;
+    border: 2px solid #006;
 }
 
 input[type=submit]:hover {
@@ -78,7 +79,7 @@ input[type=submit]:hover {
 
 /*Tools section*/
 .tools {
-	background-color: rgba(238, 238, 238, 0.5);
+	background-color: rgba(238, 238, 238, 0.2);
 	border: 1px solid #888;
 	border-radius: 8px;
 	padding: 10px;
@@ -106,9 +107,9 @@ input[type=submit]:hover {
 }
 
 .eraser {
-    background-color: #0f0;
+    background-color: #060;
     color: white;
-    border: 2px solid #0f0;
+    border: 2px solid #060;
 }
 
 .eraser:hover {
@@ -117,9 +118,9 @@ input[type=submit]:hover {
 }
 
 .reset {
-    background-color: #f00;
+    background-color: #600;
     color: white;
-    border: 2px solid #f00;
+    border: 2px solid #600;
 }
 
 .reset:hover {
@@ -137,7 +138,7 @@ input[type=color] {
 
 input[type=color]:hover {
     background-color: white;
-    border: 2px solid #f0f;
+    border: 2px solid #606;
     color: black;
 }
 
