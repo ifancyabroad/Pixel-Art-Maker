@@ -4,35 +4,31 @@
 }
 
 body {
-	background-color: #222;
-	background: linear-gradient(to bottom right, #222, #001);
-	background-repeat: no-repeat;
-    background-attachment: fixed;
+	background-color: black;
+	background-image: url('images/background.jpg');
+	background-position: cover;
+	color: white;
     text-align: center;
 	font-family: Orbitron, sans-serif;
 }
 
 /*Titles*/
 h1 {
-	color: white;
     font-size: 50px;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
 
 h2 {
-	color: white;
 	margin-top: 20px;
 }
 
 i {
-	color: white;
 	margin-bottom: 10px;
 }
 
 /*Grid form*/
 form {
-	color: white;
 	background-color: rgba(238, 238, 238, 0.2);
 	border: 1px solid #888;
 	border-radius: 8px;
@@ -88,6 +84,11 @@ input[type=submit]:hover {
 	width: 100px;
 	position: fixed;
 	left: 10%;
+}
+
+span {
+	font-size: 0.7em;
+	margin-bottom: 5px;
 }
 
 .button {
@@ -160,7 +161,7 @@ tr {
 
 td {
     width: 20px;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.4);
 }
 
 /*Footer*/
