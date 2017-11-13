@@ -27,7 +27,7 @@ $('#sizePicker').submit(function() {
 
 $(function() {
     $('.tools').draggable();
-  });
+});
 
 // Change color to white for eraser button
 $('#eraser').click(function() {

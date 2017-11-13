@@ -4,28 +4,35 @@
 }
 
 body {
+	background-color: #222;
+	background: linear-gradient(to bottom right, #222, #444);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: center;
 	font-family: Orbitron, sans-serif;
 }
 
 /*Titles*/
 h1 {
+	color: white;
     font-size: 50px;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
 
 h2 {
+	color: white;
 	margin-top: 20px;
 }
 
 i {
+	color: white;
 	margin-bottom: 10px;
 }
 
 /*Grid form*/
 form {
-	background-color: #eeeeee;
+	background-color: rgba(238, 238, 238, 0.5);
 	border: 1px solid #888;
 	border-radius: 8px;
 	margin: 10px auto;
@@ -71,7 +78,7 @@ input[type=submit]:hover {
 
 /*Tools section*/
 .tools {
-	background-color: #eeeeee;
+	background-color: rgba(238, 238, 238, 0.5);
 	border: 1px solid #888;
 	border-radius: 8px;
 	padding: 10px;
@@ -152,6 +159,7 @@ tr {
 
 td {
     width: 20px;
+	background-color: white;
 }
 
 /*Footer*/
