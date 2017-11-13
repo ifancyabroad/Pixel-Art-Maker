@@ -29,7 +29,7 @@ $('#eraser').click(function() {
 
 // Reset grid to white for reset button
 $('#reset').click(function() {
-	$('td').css({'background-color': 'white'});
+	$('td').css({'background-color': 'rgba(255, 255, 255, 0.4)'});
 });
 
 // Create a grid based on grid height and width
