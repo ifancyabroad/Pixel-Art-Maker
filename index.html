@@ -17,26 +17,20 @@
     <h1>Pixel Art Maker</h1>
 
 	<!--Controls section-->
-    <div class="controls">
-		<!--Form for selecting grid dimensions-->
-		<form id="sizePicker">
-			<div class="form-group">
-				<label for="input_height">Grid Height:</label>
-				<input type="number" id="input_height" name="height" min="1" max="50" value="1">
-			</div>
-			<div class="form-group">
-				<label for="input_width">Grid Width:</label>
-				<input type="number" id="input_width" name="width" min="1" max="50" value="1">
-			</div>
-			<input class="button" type="submit">
-		</form>
-		<!--Tools for coloring the grid-->
-		<div class="tools">
-			<input class="button" type="color" id="colorPicker">
-			<input class="button eraser" type="button" id="eraser" value="Eraser">
-			<input class="button reset" type="button" id="reset" value="Reset">
+	<!--Form for selecting grid dimensions-->
+	<form id="sizePicker">
+		<div class="form-group">
+			<label for="input_height">Grid Height:</label>
+			<input type="number" id="input_height" name="height" min="1" max="50" value="1">
 		</div>
-	</div>
+		<div class="form-group">
+			<label for="input_width">Grid Width:</label>
+			<input type="number" id="input_width" name="width" min="1" max="50" value="1">
+		</div>
+		<div class="form-group">
+			<input class="button" type="submit">
+		</div>
+	</form>
 
 	<!--Grid section-->
     <h2>Design Canvas</h2>
@@ -44,11 +38,18 @@
 	<div class="canvas-container">
 		<table id="pixel_canvas"></table>
 	</div>
+	
+	<!--Tools for coloring the grid-->
+	<div class="tools">
+		<input class="button" type="color" id="colorPicker">
+		<input class="button eraser" type="button" id="eraser" value="Eraser">
+		<input class="button reset" type="button" id="reset" value="Reset">
+	</div>
 
-	<!--Footer-->
+	<!--Footer
 	<footer>
 		<p>Made by &copy; Edgar Nightingale</p>
-	</footer>
+	</footer>-->
 
 	<!--Link to JavaScript-->
     <script src="designs.js"></script>
