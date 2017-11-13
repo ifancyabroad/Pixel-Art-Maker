@@ -31,7 +31,7 @@ $(function() {
 
 // Change color to white for eraser button
 $('#eraser').click(function() {
-	color = ('white');
+	color = ('rgba(255, 255, 255, 0.4)');
 });
 
 // Reset grid to white for reset button
