@@ -162,6 +162,7 @@ tr {
 td {
     width: 20px;
 	background-color: rgba(255, 255, 255, 0.4);
+	cursor: crosshair;
 }
 
 /*Footer*/
